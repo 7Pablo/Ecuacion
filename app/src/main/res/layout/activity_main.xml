@@ -7,119 +7,105 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/raiz2Txt"
+        android:id="@+id/raiz1Txt"
         android:layout_width="215dp"
-        android:layout_height="30dp"
-        android:layout_marginEnd="84dp"
+        android:layout_height="48dp"
         android:ems="10"
+        android:hint="@string/aqu_se_mostrar_la_ra_z_1"
+        android:importantForAutofill="no"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resolverBtn"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintVertical_bias="0.105"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/subtitulo5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lato"
-        android:text="Raíz 2:"
+        android:text="@string/ra_z_2"
         android:textColor="#010203"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/raiz2Txt"
-        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/subtitulo3"
-        app:layout_constraintVertical_bias="0.369" />
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo4"
+        app:layout_constraintVertical_bias="0.174" />
 
     <EditText
-        android:id="@+id/raiz1Txt"
-        android:layout_width="215dp"
-        android:layout_height="30dp"
-        android:layout_marginEnd="84dp"
+        android:id="@+id/raiz2Txt"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
         android:ems="10"
+        android:hint="@string/aqu_se_mostrar_la_ra_z_2"
+        android:importantForAutofill="no"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resolverBtn"
-        app:layout_constraintVertical_bias="0.068" />
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/raiz1Txt"
+        app:layout_constraintVertical_bias="0.098"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/subtitulo4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lato"
-        android:text="Raíz 1:"
+        android:text="@string/ra_z_1"
         android:textColor="#010203"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/raiz1Txt"
-        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/subtitulo3"
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintTop_toBottomOf="@+id/resolverBtn"
+        app:layout_constraintVertical_bias="0.097" />
 
     <EditText
         android:id="@+id/cTxt"
-        android:layout_width="215dp"
-        android:layout_height="30dp"
-        android:layout_marginEnd="84dp"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
         android:ems="10"
-        android:inputType="number"
+        android:hint="@string/ingresa_el_coeficiente_c"
+        android:importantForAutofill="no"
+        android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bTxt"
-        app:layout_constraintVertical_bias="0.031" />
-
-    <TextView
-        android:id="@+id/subtitulo3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/lato"
-        android:text="c:"
-        android:textColor="#010203"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/cTxt"
-        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/subtitulo2"
-        app:layout_constraintVertical_bias="0.052" />
+        app:layout_constraintTop_toBottomOf="@+id/bTxt"
+        app:layout_constraintVertical_bias="0.03"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/bTxt"
-        android:layout_width="215dp"
-        android:layout_height="30dp"
-        android:layout_marginEnd="84dp"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
         android:ems="10"
-        android:inputType="number"
+        android:hint="@string/ingresa_el_coeficiente_b"
+        android:importantForAutofill="no"
+        android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aTxt"
-        app:layout_constraintVertical_bias="0.031" />
-
-    <TextView
-        android:id="@+id/subtitulo2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/lato"
-        android:text="b:"
-        android:textColor="#010203"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/bTxt"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/subtitulo1"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintTop_toBottomOf="@+id/aTxt"
+        app:layout_constraintVertical_bias="0.031"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lato"
-        android:text="Ecuaciones de segundo grado"
+        android:text="@string/ecuaciones_de_segundo_grado"
         android:textColor="#010203"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -131,10 +117,10 @@
 
     <TextView
         android:id="@+id/ecuacion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="321dp"
+        android:layout_height="56dp"
         android:fontFamily="@font/lato"
-        android:text="ax² + bx c = 0"
+        android:text="@string/ax_bx_c_0"
         android:textColor="#010203"
         android:textSize="48sp"
         android:textStyle="italic"
@@ -149,42 +135,78 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lato"
-        android:text="a:"
+        android:text="@string/a"
         android:textColor="#010203"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/aTxt"
-        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ecuacion"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.082" />
+
+    <TextView
+        android:id="@+id/subtitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:text="@string/b"
+        android:textColor="#010203"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo1"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/subtitulo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:text="@string/c"
+        android:textColor="#010203"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo2"
+        app:layout_constraintVertical_bias="0.09" />
 
     <EditText
         android:id="@+id/aTxt"
         android:layout_width="215dp"
-        android:layout_height="30dp"
-        android:layout_marginEnd="84dp"
+        android:layout_height="48dp"
         android:ems="10"
-        android:inputType="number"
+        android:hint="@string/ingresa_el_coeficiente_a"
+        android:importantForAutofill="no"
+        android:inputType="numberSigned"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ecuacion"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.086"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/resolverBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#2196F3"
-        android:capitalize="none"
         android:fontFamily="@font/lato"
-        android:text="Resolver"
+        android:onClick="getSqrt"
+        android:text="@string/resolver"
         android:textAllCaps="false"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cTxt"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.053"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

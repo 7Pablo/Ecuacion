@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Ecuaciones</string>
+    <string name="ecuaciones_de_segundo_grado">Ecuaciones de segundo grado</string>
+    <string name="resolver">Resolver</string>
+    <string name="ax_bx_c_0">ax² + bx + c = 0</string>
+    <string name="b">b:</string>
+    <string name="a">a:</string>
+    <string name="c">c:</string>
+    <string name="ra_z_2">Raíz 2:</string>
+    <string name="ra_z_1">Raíz 1:</string>
+    <string name="ingresa_el_coeficiente_c">Ingresa el coeficiente c</string>
+    <string name="ingresa_el_coeficiente_b">Ingresa el coeficiente b</string>
+    <string name="ingresa_el_coeficiente_a">Ingresa el coeficiente a</string>
+    <string name="aqu_se_mostrar_la_ra_z_2">Aquí se mostrará la raíz 2</string>
+    <string name="aqu_se_mostrar_la_ra_z_1">Aquí se mostrará la raíz 1</string>
 </resources>
