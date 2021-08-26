@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+
 public class MainActivity extends AppCompatActivity {
 
     Ecuacion ecuacion;
@@ -15,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     EditText sqrt1Txt;
     EditText sqrt2Txt;
+
+    private static MainActivity instance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         sqrt1Txt = findViewById(R.id.raiz1Txt);
         sqrt2Txt = findViewById(R.id.raiz2Txt);
+        instance = this;
     }
 
     public void getSqrt(View v){
@@ -72,4 +76,13 @@ public class MainActivity extends AppCompatActivity {
             cTxt.setText("Por favor, introduce un número");
         }
     }
+    public static MainActivity getInstance() {
+        return instance;
+    }
+
+    public void openPopUp(){
+        AvisoPopUp myPopUp = new AvisoPopUp();
+        myPopUp.show(getSupportFragmentManager(), AvisoPopUp.TAG);
+    }
+
 }

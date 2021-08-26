@@ -13,4 +13,5 @@
     <string name="ingresa_el_coeficiente_a">Ingresa el coeficiente a</string>
     <string name="aqu_se_mostrar_la_ra_z_2">Aquí se mostrará la raíz 2</string>
     <string name="aqu_se_mostrar_la_ra_z_1">Aquí se mostrará la raíz 1</string>
+    <string name="noRoot">No es ecuación de segundo grado</string>
 </resources>

@@ -11,7 +11,10 @@ public class Ecuacion {
         String raices[] = new String[]{"",""};
 
         if (a == 0) {
-            raices[0] = "No es ecuación de segundo grado";
+            MainActivity.getInstance().openPopUp();
+            //raices[0] = String.valueOf(R.string.noRoot);
+            //new AvisoPopUp().show(getSupportFragmentManager(), AvisoPopUp.TAG);
+
         } else {
             double argRaiz = pow(b, 2) - 4 * a * c;
             if (argRaiz >= 0) {
